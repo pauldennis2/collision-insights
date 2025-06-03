@@ -1,0 +1,37 @@
+# Data directory
+/data/
+
+# Python artifacts
+*.pyc
+__pycache__/
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# IDE-specific files
+.idea/             # IntelliJ IDEA
+.vscode/           # VS Code
+*.iml              # IntelliJ IDEA module files
+.project           # Eclipse
+.classpath         # Eclipse
+.settings/         # Eclipse
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints
+
+# Machine Learning / Model Checkpoints
+*.pt               # PyTorch model files
+*.pth              # PyTorch model files
+*.h5               # Keras/TensorFlow model files
+*.tf               # TensorFlow saved model directories
+checkpoint/        # Common directory for checkpoints
+models/            # Common directory for trained models if not explicitly tracked
+runs/              # TensorBoard logs or general experiment runs
+
+# Logs and temporary files
+*.log
+.DS_Store          # macOS specific
+.Trash             # macOS specific
+Thumbs.db          # Windows specific
