@@ -1,0 +1,12 @@
+Notes on data cleaning/prep:
+
+Nothing is organized yet. Tasks we have code for:
+
+-Consolidate Weather from 145 categories to 17
+-Create Severity score based on exponential scale
+-Various "helper" columns for specific areas
+
+Definite todos:
+
+-Organize into one coherent data cleaning section
+-**Fill** missing values, particularly for day/night
