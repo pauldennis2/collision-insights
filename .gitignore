@@ -1,5 +1,7 @@
 # Data directory
 /data/
+# Created data directory - files we want will be manually added
+/created_data/
 
 # Python artifacts
 *.pyc

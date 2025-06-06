@@ -15,6 +15,7 @@ Per the source's request, these two papers are cited:
   * `project_discussion.md` - early discussion document
   * `created_data/` - directory for derived data (created is a slight misnomer). Intended for use in tableau or other general use. Data lacks documentation; see col_insights notebook.
   * `<tableau file> - tableau structure without data
+  * `weather_mapping.json` - File to contain weather condition consolidation schema
 
 ### Project Tools
 
