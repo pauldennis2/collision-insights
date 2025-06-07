@@ -47,4 +47,6 @@ The data *seems* to challenge the well-studied phenomenon of Daylight Savings Ti
 
 #### Collection Methods
 
+Correction: there are identified "sources" which likely attempt to cover this. More investigation could determine if they achieve the goal described below. This field is NOT listed in the data set's documentation.
+
 The sampling clearly increases year over year, making any analysis over a longer period of time impossible. The data shows a ~15 fold increase in accidents from 2016 to 2023, which is obviously not the case. The best way to correct for this would be to identify "channels" that allow for constant analysis over time. For example, we could identify all the inputs available at the end of 2022 as "Channel 1". As new inputs are added to the system they would receive their own channels. Meanwhile the number of accidents reported by "Channel 1" should reflect actual trends.
