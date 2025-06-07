@@ -26,6 +26,10 @@ First, we analyzed entire highways to determine which were the most 'night dange
     b. If they are not well-lit, increase visibility with standard highway lighting and reflective strips
     c. In either case, investigate maintenance plans (a currently well-lit highway may have a poor maintenance history)
 
+#### County Lighting
+
+We have extended this "night danger" analysis to look at specific counties. This information can be relayed to local authorities to help identify areas where either poor lighting or drunk driving may be causing an increase in accidents.
+
 ### Data Quality
 
 #### Categories to Add
@@ -72,14 +76,15 @@ We created a visualization showing the relative frequency of winter accidents, l
 **Recommendations**:
  1. Use the provided visualization tool to find particular areas that could benefit from dedicated resources (i.e. salt)
  2. Identify or create a pool of experts within USDOT who understand these challenges and also have experience with winter weather management. Make these experts available for both ongoing training and in advance of likely winter events
- 3. Invest in modular vehicles and be ready to repurpose existing vehicles for winter events. 
+ 3. Invest in modular vehicles and be ready to repurpose existing vehicles for winter events. This ensures resources are not idle, while also preparing for snow.
+ 4. Provide guidance on cross-training staff and ways to increase local collaboration
 
 ## Other Recommendations
 
 #### Roundabouts
 
-This is a well-studied phenomenon, and there are already many sources showing Roundabouts as a safer alternative - see [this](https://www.iihs.org/topics/roundabouts) page from the Insurance Institute for Highway Safety. We found that this data set lacked sufficient "before and after" information to truly prove their effectiveness, but their very scarcity in the data (249 accidents out of 7 million) is **suggestive** though far from conclusive (they are rarer in the first place, and the data set tends to focus on more serious accidents/biases towards highways). For context, traffic signals (admittedly much more common) account for over 1 million of the reported accidents.
+This is a well-studied phenomenon, and there are already many sources showing Roundabouts as a safer alternative - see [this](https://www.iihs.org/topics/roundabouts) page from the Insurance Institute for Highway Safety. We found that this data set lacked sufficient "before and after" information to truly prove their effectiveness, but their very scarcity in the data (249 accidents out of 7 million) is **suggestive** though far from conclusive (they are rarer in the first place, and the data set tends to focus on more serious accidents/biases towards highways). For context, traffic signals (admittedly much more common) account for over **1 million** of the reported accidents.
 
-#### DST
+#### Daylight Savings Time
 
 The data *seems* to challenge the well-studied phenomenon of Daylight Savings Time causing an increase in accidents. We observed no consistent difference in accidents between the Monday after spring DST vs before, or the Monday-Wednesday window (some years it went up, some down). There are many possible explanations for this that don't refute the claim of the shift causing an increase. We're noting this as an "interesting/surprising" finding that might merit further investigation.
