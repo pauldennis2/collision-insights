@@ -13,7 +13,7 @@ Our analysis, initially focused on highways, found that there are some areas tha
  - Severity 3: 4
  - Severity 4: 8
 
-First, we analyzed entire highways to determine which were the most 'night dangerous' overall. <example> is a particularly strong example, with <score>. However, this has obvious limitations. Some interstates stretch across the width or height of the entire country, so just saying, "We need more lighting on I-95" is not particularly useful. We focused on narrowing this down to find specific "dark spots". We use the ratio of the night severity score to the total severity score to correct for areas that are simply more dangerous/higher traffic generally and identify areas that could likely benefit from additional lighting, reflective panels, and so on.
+First, we analyzed entire highways to determine which were the most 'night dangerous' overall. I-90 W is a particularly strong example, with 40% of accidents occuring at night. However, this has obvious limitations. Some interstates stretch across the width or height of the entire country, so just saying, "We need more lighting on I-90" is not particularly useful. We focused on narrowing this down to find specific "dark spots". We use the ratio of the night severity score to the total severity score to correct for areas that are simply more dangerous/higher traffic generally and identify areas that could likely benefit from additional lighting, reflective panels, and so on. We identified segments by county.
 
 **Limitations**: The data set does not have specific information on whether the accident area was well-lit. We are assuming that an area that has a substantially higher proportion of accidents at night is likely not as well-lit, but there could be confounding variables, such as corridors with higher instances of drunk driving, which often occurs at night.
 
@@ -25,6 +25,11 @@ First, we analyzed entire highways to determine which were the most 'night dange
     a. If they are found to be well-lit, consider drunk driving as a factor and investigate
     b. If they are not well-lit, increase visibility with standard highway lighting and reflective strips
     c. In either case, investigate maintenance plans (a currently well-lit highway may have a poor maintenance history)
+
+Example Highway/County segments:
+1. White, IL, Posey, IN, and Vanderburgh, IN stretch of I-64 (IL/IN border) - 55-65%
+2. Oldham, TX on I-40 - **92%**
+3. Rockdale, GA on I-20 - 80%
 
 #### County Lighting
 
@@ -79,12 +84,18 @@ We created a visualization showing the relative frequency of winter accidents, l
  3. Invest in modular vehicles and be ready to repurpose existing vehicles for winter events. This ensures resources are not idle, while also preparing for snow.
  4. Provide guidance on cross-training staff and ways to increase local collaboration
 
+Example Counties: White, GA (ironically); Marion, AL; Ouachita, LA
+
 ## Other Recommendations
 
 #### Roundabouts
 
 This is a well-studied phenomenon, and there are already many sources showing Roundabouts as a safer alternative - see [this](https://www.iihs.org/topics/roundabouts) page from the Insurance Institute for Highway Safety. We found that this data set lacked sufficient "before and after" information to truly prove their effectiveness, but their very scarcity in the data (249 accidents out of 7 million) is **suggestive** though far from conclusive (they are rarer in the first place, and the data set tends to focus on more serious accidents/biases towards highways). For context, traffic signals (admittedly much more common) account for over **1 million** of the reported accidents.
 
+#### Work From Home
+
+There are substantially fewer accidents reported on the weekends. Weekday commutes ("rush hour" in particular) are a major source of accidents, and when accidents occur during these periods, they are more severe. The data should show a substantial drop in accidents during the COVID-19 lockdown, but we were unable to confirm this because of inconsistent reporting. Even a modest shift - such as 10-20% of employers offering one remote work day per week - could significantly reduce rush hour congestion and related accidents. It's easy to say "get more people to work from home" but challenging to put in place. USDOT could explore pilot programs that offer incentives to employers.
+
 #### Daylight Savings Time
 
-The data *seems* to challenge the well-studied phenomenon of Daylight Savings Time causing an increase in accidents. We observed no consistent difference in accidents between the Monday after spring DST vs before, or the Monday-Wednesday window (some years it went up, some down). There are many possible explanations for this that don't refute the claim of the shift causing an increase. We're noting this as an "interesting/surprising" finding that might merit further investigation.
+Our analysis does not show the expected consistent increase in accidents immediately following the spring DST shift. We observed no consistent difference in accidents between the Monday after spring DST vs before, or the Monday-Wednesday window (some years it went up, some down). There are many possible explanations for this that don't refute the claim of the shift causing an increase. We're noting this as an "interesting/surprising" finding that might merit further investigation.
